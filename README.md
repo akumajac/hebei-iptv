@@ -13,10 +13,10 @@ option12 host name：机顶盒的STBID
 
 河北电信机顶盒操作码1301
 
-组播查找正则表达式：ChannelName="(.*?)".*?(igmp://.*?)\|rtsp
+组播查找正则表达式：`ChannelName="(.*?)".*?(igmp://.*?)\|rtsp`
 
-单播查找正则表达式：ChannelName="(.*?)".*?(rtsp://.*?smil)
+单播查找正则表达式：`ChannelName="(.*?)".*?(rtsp://.*?smil)`
 
-替换：$1,$2
+替换：`$1,$2`
 
 [正则在线工具](https://c.runoob.com/front-end/854/）
