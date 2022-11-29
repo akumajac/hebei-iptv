@@ -19,4 +19,4 @@ option12 host name：机顶盒的STBID
 
 替换：`$1,$2`
 
-[正则在线工具](https://c.runoob.com/front-end/854/）
+[正则表达式在线工具](https://tool.oschina.net/regex)
