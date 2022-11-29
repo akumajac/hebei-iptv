@@ -6,5 +6,5 @@
 192.168.28.0/24     
 192.168.28.9为内网回看地址
 
-option60：HEITV     
-option12：机顶盒的STBID
+option60 Vendor Class：HEITV     
+option12 host name：机顶盒的STBID
