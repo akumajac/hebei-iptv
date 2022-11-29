@@ -8,4 +8,5 @@
 
 option60 Vendor Class：HEITV     
 option12 host name：机顶盒的STBID
+
 河北电信机顶盒操作码1301
