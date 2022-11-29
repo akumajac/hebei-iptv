@@ -3,7 +3,8 @@
 
 2022-11-29亲测可用
 
-自用备忘
+## 自用备忘
+
 192.168.28.0/24     
 192.168.28.9为内网回看地址
 
@@ -18,4 +19,4 @@ option12 host name：机顶盒的STBID
 
 替换：$1,$2
 
-正则在线工具https://c.runoob.com/front-end/854/
+[正则在线工具](https://c.runoob.com/front-end/854/）
