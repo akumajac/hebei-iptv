@@ -23,3 +23,5 @@
   > [正则表达式在线工具](https://tool.oschina.net/regex)
 - **直播源列表转换工具**
   > [M3U转换](https://guihet.com/tvlistconvert.html)
+- **EPG频道列表**
+  > [epg转换](http://epg.51zmt.top:8000/)
