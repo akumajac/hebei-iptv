@@ -40,4 +40,4 @@
   > [M3U转换](https://guihet.com/tvlistconvert.html)
 - **EPG频道列表**
   > [epg转换51zmt](http://epg.51zmt.top:8000/)
-  > []112114(https://epg.112114.eu.org/)
+  > [112114](https://epg.112114.eu.org/)
