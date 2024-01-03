@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>提取组播地址和单播地址</title>
+    <style>
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: deepskyblue;
+        }
+
+        .output-row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .output-column {
+            width: 45%;
+        }
+
+        .output-column p {
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        function extractMulticastAddresses() {
+            var inputText = document.getElementById('inputText').value;
+            var regex = /ChannelName="([^"]*)".*?(igmp:\/\/)(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}):(\d+)/g;
+            var matches = new Set();
+            var match;
+
+            while ((match = regex.exec(inputText)) !== null) {
+                var channelName = match[1];
+                var multicastAddress = match[2] + match[3] + ':' + match[4];
+                var result = channelName + ',' + multicastAddress.replace('igmp://', 'rtp://');
+                matches.add(result);
+            }
+
+            var outputText = Array.from(matches).join('\n');
+            document.getElementById('multicastOutputText').textContent = outputText;
+
+            var saveFormat = document.querySelector('input[name="saveFormat"]:checked').value;
+
+            if (saveFormat === 'txt') {
+                var blob = new Blob([outputText], {type: 'text/plain'});
+                var filename = '提取组播结果.txt';
+                saveBlobAsFile(blob, filename);
+            } else if (saveFormat === 'm3u') {
+                var m3uContent = '#EXTM3U\n';
+                matches.forEach(function (address) {
+                    m3uContent += '#EXTINF:-1,' + address.split(',')[0] + '\n';
+                    m3uContent += address.split(',')[1] + '\n';
+                });
+                var blob = new Blob([m3uContent], {type: 'text/plain'});
+                var filename = '提取组播结果.m3u';
+                saveBlobAsFile(blob, filename);
+            }
+        }
+
+        function extractUnicastAddresses() {
+            var inputText = document.getElementById('inputText').value;
+            var regex = /ChannelName="([^"]*)".*?(rtsp:\/\/\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\/.*?)"/g;
+            var matches = new Set();
+            var match;
+
+            while ((match = regex.exec(inputText)) !== null) {
+                var channelName = match[1];
+                var unicastAddress = match[2].split('.smil')[0] + '.smil';
+                var result = channelName + ',' + unicastAddress;
+                matches.add(result);
+            }
+
+            var outputText = Array.from(matches).join('\n');
+            document.getElementById('unicastOutputText').textContent = outputText;
+
+            var saveFormat = document.querySelector('input[name="saveFormat"]:checked').value;
+
+            if (saveFormat === 'txt') {
+                var blob = new Blob([outputText], {type: 'text/plain'});
+                var filename = '提取单播结果.txt';
+                saveBlobAsFile(blob, filename);
+            } else if (saveFormat === 'm3u') {
+                var m3uContent = '#EXTM3U\n';
+                matches.forEach(function (address) {
+                    m3uContent += '#EXTINF:-1,' + address.split(',')[0] + '\n';
+                    m3uContent += address.split(',')[1] + '\n';
+                });
+                var blob = new Blob([m3uContent], {type: 'text/plain'});
+                var filename = '提取单播结果.m3u';
+                saveBlobAsFile(blob, filename);
+            }
+        }
+
+        function saveBlobAsFile(blob, filename) {
+            var a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = filename;
+            a.style.display = 'none';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
+</head>
+<body>
+    <h1 style="text-align: center;">快速提取组播,单播地址 V2.0 By gYssi</h1>
+    <div class="container">
+        <textarea id="inputText" rows="15" cols="60" placeholder="请将抓包后的数据粘贴到这里，并点击下方的提取并保存按钮"></textarea>
+        <br>
+        <p>选择保存格式:</p>
+        <label>
+            <input type="radio" name="saveFormat" value="txt" checked> .txt
+        </label>
+        <label>
+            <input type="radio" name="saveFormat" value="m3u"> .m3u
+        </label>
+        <br>
+        <button onclick="extractMulticastAddresses()">提取并保存组播</button>
+        <button onclick="extractUnicastAddresses()">提取并保存单播</button>
+        <br>
+        <div class="output-row">
+            <div class="output-column">
+                <p>提取组播结果:</p>
+                <pre id="multicastOutputText"></pre>
+            </div>
+            <div class="output-column">
+                <p>提取单播结果:</p>
+                <pre id="unicastOutputText"></pre>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
