@@ -1,18 +1,12 @@
 # hebei-iptv
 河北电信IPTV组播源
 
-2024/01/10更新，亲测可用
+2024/02/24更新，亲测可用
 
 
 
 ## 参考教程
 参考B站这位up主[点我](https://www.bilibili.com/read/cv18776837)
-
-我的光猫绑定vlan是灰色的，此时可以`f12`或快捷键`ctrl + shift + c`选中灰色块
-![2022-12-02](https://user-images.githubusercontent.com/111755912/205198063-d252728e-fffa-40ed-92eb-c6be2942d669.png)
-展开f12中的链接，双击选中`disable`然后删除，这样就解除限制了。
-![2022-12-02 (1)](https://user-images.githubusercontent.com/111755912/205196772-91a01bbb-8214-4ddf-a9f3-ee8ec06fe780.png)
-或者当前页面刷新3次，有一定几率能解除，我也不知道为什么，可能是bug
 
 ## 公益源推荐
 > 茶客公益源[项目地址](https://github.com/vamoschuck/TV)**/**[下载链接](https://raw.githubusercontent.com/vamoschuck/TV/main/M3U)
