@@ -3,11 +3,11 @@
 
 2024/02/24更新，亲测可用
 
-以下为远程下载测试链接
+以下为代理链接
 
-`https://mirror.ghproxy.com/`
-``
-``
+`https://raw.kkgithub.com/akumajac/hebei-iptv/main/单播.txt`
+`https://raw.kkgithub.com/akumajac/hebei-iptv/main/组播.txt`
+`https://raw.kkgithub.com/akumajac/hebei-iptv/main/tvbox-test.txt`
 
 ## 参考教程
 参考B站这位up主[点我](https://www.bilibili.com/read/cv18776837)
