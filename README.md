@@ -5,9 +5,9 @@
 
 以下为代理链接
 
-`https://raw.kkgithub.com/akumajac/hebei-iptv/main/单播.txt`
-`https://raw.kkgithub.com/akumajac/hebei-iptv/main/组播.txt`
-`https://raw.kkgithub.com/akumajac/hebei-iptv/main/tvbox-test.txt`
+- `https://raw.kkgithub.com/akumajac/hebei-iptv/main/单播.txt`
+- `https://raw.kkgithub.com/akumajac/hebei-iptv/main/组播.txt`
+- `https://raw.kkgithub.com/akumajac/hebei-iptv/main/tvbox-test.txt`
 
 ## 参考教程
 参考B站这位up主[点我](https://www.bilibili.com/read/cv18776837)
