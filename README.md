@@ -14,8 +14,14 @@
 
 1、光猫取消端口绑定，划分vlan，我将上网口划分1，iptv划分为2
    河北于23年末左右强制更换光猫管理员密码，需要抓包
-2、openwrt路由器新建接口，自定义接口填上：wan口的标识符 加上.iptv划分的vlan名称。如我的wan口是eth1，那么我就填上eth1.2
-![Uploading 屏幕截图 2024-03-06 213259.png…]()  ![Uploading 屏幕截图 2024-03-06 213406.png…]()
+2、openwrt路由器新建接口，自定义接口填上：wan口的标识符 加上.iptv划分的vlan名称。如我的wan口是eth1，那么我就填上eth1.2   防火墙设置里新建iptv
+![屏幕截图 2024-03-06 213259](https://github.com/akumajac/hebei-iptv/assets/111755912/94665168-63e9-441f-a036-854db46e0991)![屏幕截图 2024-03-06 213406](https://github.com/akumajac/hebei-iptv/assets/111755912/97640353-500d-4276-a5e3-40b71a0c7cdb) ![屏幕截图 2024-03-06 214053](https://github.com/akumajac/hebei-iptv/assets/111755912/9965f62a-fa34-431c-b3c2-5e5274323bd1)
+3、新建接口的基本设置里，发送主机名填stbid ，高级设置里Vendor Class填HEITV  ,MAC填机顶盒的mac，网关跃点填20（这个数比wan口的跃点大就行
+4、udpxy按图填，完成后参考openwrt设置 文件夹的内容
+![屏幕截图 2024-03-06 214053](https://github.com/akumajac/hebei-iptv/assets/111755912/1ce3506b-e8f7-4d2e-bb6b-de8d8ec7f8fa)
+5、防火墙新建流量规则，协议选udp，源区域选iptv（第2步新建的那个。目标区域选设备
+
+
 
 
 
