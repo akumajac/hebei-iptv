@@ -13,7 +13,11 @@
 本教程参考自B站up主[maxdarksol](https://www.bilibili.com/read/cv18776837)
 
 1、光猫取消端口绑定，划分vlan，我将上网口划分1，iptv划分为2
-   河北于23年末左右强制更换光猫管理员密码，[Uploading 获取电信光猫超级密码（型号：ZXHN F610G） - 凡是過往；皆為序章 - 博客园.html…]()
+   河北于23年末左右强制更换光猫管理员密码，需要抓包
+2、openwrt路由器新建接口，自定义接口填上：wan口的标识符 加上.iptv划分的vlan名称。如我的wan口是eth1，那么我就填上eth1.2
+![Uploading 屏幕截图 2024-03-06 213259.png…]()  ![Uploading 屏幕截图 2024-03-06 213406.png…]()
+
+
 
 
 
