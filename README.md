@@ -24,7 +24,8 @@
 3、新建接口的基本设置里，发送主机名填stbid ，高级设置里Vendor Class填HEITV  ,MAC填机顶盒的mac，网关跃点填20（这个数比wan口的跃点大就行
 
 4、udpxy按图填，完成后参考openwrt设置 文件夹的内容
-![屏幕截图 2024-03-06 214053](https://github.com/akumajac/hebei-iptv/assets/111755912/1ce3506b-e8f7-4d2e-bb6b-de8d8ec7f8fa)
+![屏幕截图 2024-03-06 214853](https://github.com/akumajac/hebei-iptv/assets/111755912/571bf633-8ad8-40b8-a4fa-436067b28f43)
+
 
 5、防火墙新建流量规则，协议选udp，源区域选iptv（第2步新建的那个。目标区域选设备
 
