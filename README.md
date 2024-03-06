@@ -10,7 +10,14 @@
 - 这个有点问题 `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/tvbox-test.txt`
 
 ## 参考教程
-参考B站这位up主[点我](https://www.bilibili.com/read/cv18776837)
+本教程参考自B站up主[maxdarksol](https://www.bilibili.com/read/cv18776837)
+
+1、光猫取消端口绑定，划分vlan，我将上网口划分1，iptv划分为2
+   河北于23年末左右强制更换光猫管理员密码，[Uploading 获取电信光猫超级密码（型号：ZXHN F610G） - 凡是過往；皆為序章 - 博客园.html…]()
+
+
+
+
 
 ## 公益源推荐
 > 茶客公益源[项目地址](https://github.com/vamoschuck/TV)**/**[下载链接](https://raw.githubusercontent.com/vamoschuck/TV/main/M3U)
