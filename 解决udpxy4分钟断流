@@ -1,0 +1,2 @@
+# openwrt后台进入 etc/config/udpxy  添加下面值 
+option mcsub_renew '55'
