@@ -26,7 +26,9 @@
 4、udpxy按图填，完成后参考openwrt设置 文件夹的内容
 ![屏幕截图 2024-03-06 214853](https://github.com/akumajac/hebei-iptv/assets/111755912/571bf633-8ad8-40b8-a4fa-436067b28f43)
 
-5、msd_lite和udpxy二选一。msd_lite的占用比udpxy低,比较推荐，但好像只能内网，外网端口有bug  udpxy的格式为http://路由器ip:端口/udp/组播地址  msd_lite的格式为http://路由器ip:端口/rtp/组播地址
+5、msd_lite和udpxy二选一。msd_lite的占用比udpxy低,比较推荐，但好像只能内网，外网端口有bug  
+udpxy的格式为http://路由器ip:端口/udp/组播地址  
+msd_lite的格式为http://路由器ip:端口/rtp/组播地址
 
 
 6、防火墙新建流量规则，协议选任意，源区域选iptv（第2步新建的那个。目标区域选设备
