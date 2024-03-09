@@ -7,7 +7,8 @@
 
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/单播.txt`
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/组播.txt`
-- 这个有点问题 `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/tvbox-test.txt`
+- `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/tvbox-test.txt`
+- `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/msd_lite-test`
 
 ## 参考教程
 本教程参考自B站up主[maxdarksol](https://www.bilibili.com/read/cv18776837)
