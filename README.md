@@ -4,7 +4,7 @@
 河北电信IPTV组播源
 
 2024/02/24更新，亲测可用
-<details>
+
 <summary>以下为代理链接<summary>
 
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/单播.txt`
