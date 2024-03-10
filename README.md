@@ -17,9 +17,8 @@
 
 <details>
  
- <summary> 
-  
-  ## 参考教程</summary>
+ <summary>  
+ ## 参考教程</summary>
 本教程参考自B站up主[maxdarksol](https://www.bilibili.com/read/cv18776837)
 
 1、光猫取消端口绑定，划分vlan，我将上网口划分1，iptv划分为2
