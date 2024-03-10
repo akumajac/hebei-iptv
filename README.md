@@ -1,4 +1,4 @@
-<img align="right" width="296" height="93" src="https://github.com/akumajac/hebei-iptv/assets/111755912/60745ef2-b96f-48de-9ba0-a1032a98c6a7">
+<img align="right" width="258" height="66" src="https://github.com/akumajac/hebei-iptv/assets/111755912/3c0c7124-4d43-46bc-83e3-6d0ea4bc7094">
 
 ## *本项目涉及内容仅供学习交流，严禁用于商业用途及其他目的，否则法律及版权纠纷由用户个人承担，请于下载后24小时内删除*
 
