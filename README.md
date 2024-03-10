@@ -5,8 +5,7 @@
 
 2024/02/24更新，亲测可用
  <details>
-  <summary>以下为代理链接<summary>
-  
+  <summary>以下为代理链接   
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/单播.txt`
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/组播.txt`
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/tvbox-test.txt`
