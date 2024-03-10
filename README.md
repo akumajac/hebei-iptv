@@ -1,15 +1,18 @@
+## *本项目涉及内容仅供学习交流,严禁用于商业用途及其他目的，否则法律及版权纠纷由用户个人承担，请于下载后24小时内删除*
+
 # hebei-iptv
 河北电信IPTV组播源
 
 2024/02/24更新，亲测可用
-
-以下为代理链接
+<details>
+<summary>以下为代理链接<summary>
 
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/单播.txt`
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/组播.txt`
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/tvbox-test.txt`
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/msd_lite-test`
-
+<details>
+   
 ## 参考教程
 本教程参考自B站up主[maxdarksol](https://www.bilibili.com/read/cv18776837)
 
