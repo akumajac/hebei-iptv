@@ -1,6 +1,6 @@
 <img align="right" width="296" height="93" src="https://github.com/akumajac/hebei-iptv/assets/111755912/60745ef2-b96f-48de-9ba0-a1032a98c6a7">
 
-## *本项目涉及内容仅供学习交流,严禁用于商业用途及其他目的，否则法律及版权纠纷由用户个人承担，请于下载后24小时内删除*
+## *本项目涉及内容仅供学习交流，严禁用于商业用途及其他目的，否则法律及版权纠纷由用户个人承担，请于下载后24小时内删除*
 
 # hebei-iptv
 河北电信IPTV组播源
@@ -16,7 +16,7 @@
 </details>
 
 <details>
-<summary>## 参考教程</summary>
+## 参考教程
 本教程参考自B站up主[maxdarksol](https://www.bilibili.com/read/cv18776837)
 
 1、光猫取消端口绑定，划分vlan，我将上网口划分1，iptv划分为2
