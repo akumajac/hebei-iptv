@@ -1,0 +1,3 @@
+添加到etc/config/network的lan里
+参考https://www.right.com.cn/FORUM/forum.php?mod=viewthread&tid=3184275
+option igmp_snooping '1'
