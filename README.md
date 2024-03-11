@@ -5,7 +5,7 @@
 # hebei-iptv
 河北电信IPTV组播源
 
-2024/02/24更新
+2024/02/24更新，内容基于0313，理论通用
  <details>
   <summary>以下为代理链接</summary>
  
