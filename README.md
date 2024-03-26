@@ -9,7 +9,7 @@
  <details>
   <summary>以下为代理链接</summary>
  
-- `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/单播.txt`
+- `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/blob/回看测试/回看.txt`
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/组播.txt`
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/tvbox-test.txt`
 - `https://mirror.ghproxy.com/raw.githubusercontent.com/akumajac/hebei-iptv/main/msd_lite-test`
